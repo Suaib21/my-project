@@ -17,6 +17,10 @@ class Mobile_phones:
     def Repair_phone(self, Repair_phone):
         print("We will Repair Your Phone ")
         self.phones.append(Repair_phone)
+        
+    def Repaired_phone(self,Repaired_phone):
+        print("Get Your Repaired phone ")
+        self.phones.append(Repaired_phone)
 
 
 phones = ["Samsung", "Redmi", "Poco", "Apple"]
